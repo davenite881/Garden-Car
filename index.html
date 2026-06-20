@@ -76,7 +76,7 @@
       box-shadow: 0 4px 0 #12331f;
     }
 
-    /* User-Badges */
+    /* User-Badges – BEIDE OWNER */
     .user-row {
       display: flex;
       flex-wrap: wrap;
@@ -234,7 +234,7 @@
       letter-spacing: 0.3px;
     }
 
-    /* Admin Abuse Box */
+    /* Admin Abuse Box – NEUES DATUM */
     .abuse-box {
       background: linear-gradient(145deg, #3b1e1a, #2a1410);
       padding: 18px 30px;
@@ -348,7 +348,7 @@
     <div class="header-badge">🌱🌾 Farm &amp; Drive</div>
   </div>
 
-  <!-- User -->
+  <!-- User – BEIDE OWNER -->
   <div class="user-row">
     <div class="user-pill">
       <span class="icon">👤</span> davenite300
@@ -356,7 +356,7 @@
     </div>
     <div class="user-pill">
       <span class="icon">👤</span> MilliYT
-      <span class="role">⭐ Co‑Owner</span>
+      <span class="role">⭐ Owner</span>
     </div>
   </div>
 
@@ -365,13 +365,13 @@
     <span class="car-icon">🚗</span> Garden Car · Seeds
   </div>
 
-  <!-- Countdown – 27.06.2026 -->
+  <!-- Countdown – 04.07.2026 -->
   <div class="countdown-modern">
     <div class="label">
       ⚡ Admin Abuse
       <span class="badge-red">🚨</span>
     </div>
-    <div class="timer" id="countdownDisplay">3W 0T 00:00:00</div>
+    <div class="timer" id="countdownDisplay">4W 0T 00:00:00</div>
   </div>
 
   <!-- 10 Seeds -->
@@ -388,11 +388,11 @@
     <div class="seed-item"><span class="emoji">🌻</span><span class="name">Sonnenblume</span><span class="tag">Seed</span></div>
   </div>
 
-  <!-- Admin Abuse Box -->
+  <!-- Admin Abuse Box – NEUES DATUM -->
   <div class="abuse-box">
     <div class="left">
       <strong>🔥 Admin Abuse</strong>
-      <span class="date-badge">📅 27.06.2026</span>
+      <span class="date-badge">📅 04.07.2026</span>
     </div>
     <span class="seed-count">🌱 10 Seeds</span>
   </div>
@@ -407,8 +407,8 @@
 
 <script>
   (function() {
-    // 27. Juni 2026, 00:00:00
-    const targetDate = new Date(2026, 5, 27, 0, 0, 0).getTime();
+    // 4. Juli 2026, 00:00:00
+    const targetDate = new Date(2026, 6, 4, 0, 0, 0).getTime();
 
     function updateCountdown() {
       const now = Date.now();
